@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./backgroundNetflix.jpg');
+}
+
+header nav{
+    background-color: rgba(0, 0, 0, 0.658);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+header nav h1{
+    font-size: 3rem;
+    color: red;
+}
+
+header nav button{
+    padding: 0.5rem 2.5rem;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.container--banner{
+    background-color: rgba(0, 0, 0, 0.658);
+    padding-top: 7rem;
+    height: 86.7vh;
+    color: white;
+}
+
+.container--banner h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.container--banner p{
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container--banner input{
+    outline: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    border: none;
+    width: 18rem;
+    height: 3rem;
+}
+
+.container--buttonsBannner{
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container--banner button{
+    border: none;
+    border-radius: 1rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
